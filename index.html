@@ -5,34 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front-End Developer | Vladyslav Yermolayev</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Inter:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500;700&family=Inter:wght@600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="container"></div>
+        <div class="container">
+            <!-- Can be added some additional info -->
+        </div>
     </header>
     <div class="content">
         <div class="container">
             <aside class="aside">
-                <img src="./img/vlasylav-yermolayev-avatar.png" alt="Vladyslav Yermolayev photo" class="aside__photo" width="250" height="250">
+                <img src="./img/vlasylav-yermolayev-avatar.png" alt="Vladyslav Yermolayev photo" class="aside__photo"
+                    width="250" height="250">
                 <div class="wrapper">
                     <article class="article article--contact">
                         <h2 class="text-title">Contact</h2>
                         <ul class="contact-list">
-                            <li class="contact-list__item">
+                            <li class="contact-list__item contact-list__item--call">
                                 <a href="tel:+380939827229">+38 (093) 982-72-29</a>
                             </li>
-                            <li class="contact-list__item">
-                                <a href="mail:mk.ua.ermav@gmail.com">mk.ua.ermav@gmail.com</a>
+                            <li class="contact-list__item contact-list__item--envelope">
+                                <a href="mail:mk.ua.ermac@gmail.com">mk.ua.ermac@gmail.com</a>
                             </li>
-                            <li class="contact-list__item">
+                            <li class="contact-list__item contact-list__item--location">
                                 <a href="https://maps.app.goo.gl/6cojwcbSbH4TkRQE9" target="_blank">Odesa, Ukraine</a>
                             </li>
                         </ul>
@@ -40,33 +42,107 @@
                     <article class="article article--skills">
                         <h2 class="text-title">Skills</h2>
                         <ul class="simple-list">
-                            <li class="simple-list__item">HTML</li>
-                            <li class="simple-list__item">CSS</li>
-                            <li class="simple-list__item">Sass(SCSS)</li>
-                            <li class="simple-list__item">BEM</li>
-                            <li class="simple-list__item">Bootstrap</li>
-                            <li class="simple-list__item">JavaScript</li>
-                            <li class="simple-list__item">TypeScript</li>
-                            <li class="simple-list__item">jQuery</li>
-                            <li class="simple-list__item">Gulp</li>
-                            <li class="simple-list__item">Angular</li>
-                            <li class="simple-list__item">Angular Material</li>
-                            <li class="simple-list__item">RxJS</li>
-                            <li class="simple-list__item">Redux</li>
-                            <li class="simple-list__item">NgRx</li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/html-e44d26.svg?&style=for-the-badge&logo=html5&logoColor=fff"
+                                    alt="HTML">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/css-0692c1.svg?&style=for-the-badge&logo=css3&logoColor=fff"
+                                    alt="CSS">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/sass-cf649a.svg?&style=for-the-badge&logo=sass&logoColor=fff"
+                                    alt="Sass(SCSS)">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/bem-17a1e6.svg?&style=for-the-badge&logo=bem&logoColor=fff"
+                                    alt="BEM">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/bootstrap-712cf9.svg?&style=for-the-badge&logo=bootstrap&logoColor=fff"
+                                    alt="Bootstrap">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/javascript-f7e018.svg?&style=for-the-badge&logo=javascript&logoColor=fff"
+                                    alt="JavaScript">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/jquery-0769ad.svg?&style=for-the-badge&logo=jquery&logoColor=fff"
+                                    alt="jQuery">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/gulp-cf4647.svg?&style=for-the-badge&logo=gulp&logoColor=fff"
+                                    alt="Gulp">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/typescript-3178c6.svg?&style=for-the-badge&logo=typescript&logoColor=fff"
+                                    alt="TypeScript">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/angular-c3002f.svg?&style=for-the-badge&logo=angular&logoColor=fff"
+                                    alt="Angular">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/angular%20material-fb8c00.svg?&style=for-the-badge&logo=angular-material&logoColor=fff"
+                                    alt="Angular Material">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/redux-764abc.svg?&style=for-the-badge&logo=redux&logoColor=fff"
+                                    alt="Redux">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/rxjs-d81b60.svg?&style=for-the-badge&logo=rxjs&logoColor=fff"
+                                    alt="RxJS">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/ngrx-211424.svg?&style=for-the-badge&logo=ngrx&logoColor=fff"
+                                    alt="NgRX">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/wordpress-23282d.svg?&style=for-the-badge&logo=wordpress&logoColor=fff"
+                                    alt="WordPress">
+                            </li>
                         </ul>
                     </article>
                     <article class="article article--tools">
-                        <h2 class="text-title">Skills</h2>
+                        <h2 class="text-title">Tools</h2>
                         <ul class="simple-list">
-                            <li class="simple-list__item">Git</li>
-                            <li class="simple-list__item">GitHub</li>
-                            <li class="simple-list__item">GitLab</li>
-                            <li class="simple-list__item">Bitbucket</li>
-                            <li class="simple-list__item">Jira</li>
-                            <li class="simple-list__item">Figma</li>
-                            <li class="simple-list__item">Photoshop</li>
-                            <li class="simple-list__item">VS Code</li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/git-f05030.svg?&style=for-the-badge&logo=git&logoColor=fff"
+                                    alt="Git">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/github-000.svg?&style=for-the-badge&logo=github&logoColor=fff"
+                                    alt="GitHub">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/gitlab-e24329.svg?&style=for-the-badge&logo=gitlab&logoColor=fff"
+                                    alt="GitLab">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/bitbucket-267ff6.svg?&style=for-the-badge&logo=bitbucket&logoColor=fff"
+                                    alt="Bitbucket">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/jira-2684ff.svg?&style=for-the-badge&logo=atlassian&logoColor=fff"
+                                    alt="Jira">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/confluence-2684ff.svg?&style=for-the-badge&logo=confluence&logoColor=fff"
+                                    alt="Confluence">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/figma-2c2c2c.svg?&style=for-the-badge&logo=figma&logoColor=fff"
+                                    alt="Figma">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/photoshop-2243c0.svg?&style=for-the-badge&logo=adobe-photoshop&logoColor=fff"
+                                    alt="Photoshop">
+                            </li>
+                            <li class="simple-list__item">
+                                <img src="https://img.shields.io/badge/vs%20code-0066b8.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=fff"
+                                    alt="VS Code">
+                            </li>
                         </ul>
                     </article>
                 </div>
@@ -74,12 +150,13 @@
             <main>
                 <section class="hero">
                     <div class="wrapper">
-                        <img src="./img/vlasylav-yermolayev-avatar.png" alt="Vladyslav Yermolayev photo" class="hero__photo" width="250" height="250">
+                        <img src="./img/vlasylav-yermolayev-avatar.png" alt="Vladyslav Yermolayev photo"
+                            class="hero__photo" width="250" height="250">
                         <span class="hero__title">Vladyslav Yermolayev</span>
-                        <spna class="highlighted">Front-End Developer</spna>
+                        <span class="highlighted">Front-End Developer</span>
                         <article class="article article--profile">
                             <h2 class="text-title">Profile</h2>
-                            <p class="text-intro">A student majoring in Advertising and UI / UX design. In this CV is my design and marketing experience. Things I achieve through projects and works. Therefore, I want a job starting UI/UX as a career to stabilize and enhance my competence.</p>
+                            <p class="text-intro">Front-End Developer with hands-on experience in crafting engaging and responsive web applications.<br> Proficient in HTML5, CSS3, JavaScript.<br> Proven ability to transform design concepts into visually appealing and user-friendly interfaces.<br> Skilled in optimizing website performance and ensuring cross-browser compatibility.<br> Constantly staying updated on industry trends and emerging technologies.</p>
                         </article>
                     </div>
                 </section>
@@ -89,25 +166,158 @@
                             <h2 class="text-title">Work Experience</h2>
                             <ul class="extended-list">
                                 <li class="extended-list__item">
-                                    <h3 class="extended-list__item-heading">Marketing</h3>
+                                    <h3 class="extended-list__item-heading">Middle Front-End Developer</h3>
                                     <div class="extended-list__item-top">
-                                        <spna class="highlighted highlighted--s">2021-2022</spna>
-                                        <h4 class="extended-list__item-company">
-                                            Maicogroup Co.Ltd <span>[Social Media]</span>
+                                        <span class="highlighted highlighted--s">Mar 2023 - Mar 2024</span>
+                                        <h4 class="extended-list__item-name">
+                                            InStandart <span>[Software Development]</span>
                                         </h4>
                                     </div>
-                                    <p class="extended-list__item-description">Working environment is a real estate brokerage company, I have learned a lot about customer psychology and behavior from which to come up with appropriate strategies to close the deal as quickly as possible.</p>
+                                    <div class="extended-list__item-description">
+                                        <span>Responsibilities:</span> 
+                                        <ul>
+                                            <li>Cross-browser, responsive markup with HTML5, CSS3</li>
+                                            <li>Websites development with HTML5, CSS3, JavaScript, jQuery and CMS WordPress</li>
+                                            <li>Administration of websites on CMS WordPress, HTML5/CSS3</li>
+                                            <li>Migrating websites from one domain/hosting to another</li>
+                                            <li>Bugs fix on the websites</li>
+                                            <li>UI/UX optimization</li>
+                                        </ul>
+                                    </div>
                                 </li>
                                 <li class="extended-list__item">
-                                    <h3 class="extended-list__item-heading">Event Freelance</h3>
+                                    <h3 class="extended-list__item-heading">Front-End Developer</h3>
                                     <div class="extended-list__item-top">
-                                        <spna class="highlighted highlighted--s">2019-2020</spna>
-                                        <h4 class="extended-list__item-company">
-                                            Cánh Cung Co.Ltd <span>[Logicstics]</span>
+                                        <span class="highlighted highlighted--s">May 2019 - Dec 2022</span>
+                                        <h4 class="extended-list__item-name">
+                                            Voxloud <span>[Telecommunications]</span>
                                         </h4>
                                     </div>
-                                    <p class="extended-list__item-description">The 27th National Awarding Congress of NewImage company.</p>
+                                    <div class="extended-list__item-description">
+                                        <span>Responsibilities:</span>
+                                        <ul>
+                                            <li>Cross-browser, responsive markup with HTML5, CSS3</li>
+                                            <li>Web app development with TypeScript, Angular 9+</li>
+                                            <li>Websites development with HTML5, CSS3, JavaScript, jQuery and CMS WordPress</li>
+                                            <li>Administration of websites on CMS WordPress, HTML5/CSS3</li>
+                                            <li>Migrating websites from one domain/hosting to another</li>
+                                            <li>Bugs fix on the websites and web app (main product)</li>
+                                            <li>UI/UX optimization</li>
+                                            <li>Team development</li>
+                                            <li>Working in a cross-location team</li>
+                                            <li>Scrum events participation</li>
+                                            <li>Work directly with CTO to determine new features and applications</li>
+                                        </ul>
+                                    </div>
                                 </li>
+                                <li class="extended-list__item">
+                                    <h3 class="extended-list__item-heading">Front-End Developer</h3>
+                                    <div class="extended-list__item-top">
+                                        <span class="highlighted highlighted--s">Jun 2018 - Nov 2018</span>
+                                        <h4 class="extended-list__item-name">
+                                            Pliri <span>[Tracking]</span>
+                                        </h4>
+                                    </div>
+                                    <div class="extended-list__item-description">
+                                        <span>Responsibilities:</span>
+                                        <ul>
+                                            <li>Cross-browser, responsive markup with HTML5, CSS3</li>
+                                            <li>Web app development (client side) with HTML5, CSS3, JavaScript, jQuery</li>
+                                            <li>Front-End bugs fix</li>
+                                            <li>UI/UX optimization</li>
+                                            <li>Scrum events participation</li>
+                                            <li>Work directly with Founder to determine new features and applications</li>
+                                            <li>Team development</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="extended-list__item">
+                                    <h3 class="extended-list__item-heading">Front-End Developer</h3>
+                                    <div class="extended-list__item-top">
+                                        <span class="highlighted highlighted--s">Sep 2016 - Jun 2018</span>
+                                        <h4 class="extended-list__item-name">
+                                            CBT <span>[Trading]</span>
+                                        </h4>
+                                    </div>
+                                    <div class="extended-list__item-description">
+                                        <span>Responsibilities:</span>
+                                        <ul>
+                                            <li>Cross-browser, responsive markup with HTML5, CSS3</li>
+                                            <li>Website development with HTML5, CSS3 and CMS WordPress</li>
+                                            <li>Administration of websites on Yii2, CMF Drupal 7, CMS WordPress, CMF ModX Revolution, HTML5/CSS3</li>
+                                            <li>Markup custom email templates</li>
+                                            <li>Migrating websites from one domain/hosting to another</li>
+                                            <li>Bugs fix on the websites</li>
+                                            <li>Team development</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="extended-list__item">
+                                    <h3 class="extended-list__item-heading">Junior Front-End Developer</h3>
+                                    <div class="extended-list__item-top">
+                                        <span class="highlighted highlighted--s">Aug 2012 - Mar 2013</span>
+                                        <h4 class="extended-list__item-name">
+                                            UkrArtMedia <span>[Marketing]</span>
+                                        </h4>
+                                    </div>
+                                    <div class="extended-list__item-description">
+                                        <span>Responsibilities:</span>
+                                        <ul>
+                                            <li>Cross-browser markup with HTML, CSS</li>
+                                            <li>Website development with HTML, CSS and CMF Drupal 7</li>
+                                            <li>Administration of websites on CMF Drupal 6/7, CMS WordPress, HTML, CSS</li>
+                                            <li>Migrating websites from one domain/hosting to another</li>
+                                            <li>Bugs fix on the websites</li>
+                                            <li>Team development</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
+                </section>
+                <section class="education">
+                    <div class="wrapper">
+                        <article class="article article--education">
+                            <h2 class="text-title">Education</h2>
+                            <ul class="extended-list">
+                                <li class="extended-list__item">
+                                    <h3 class="extended-list__item-heading">Diploma of specialist in engineering specialty, Computer programming, special applications</h3>
+                                    <div class="extended-list__item-top">
+                                        <span class="highlighted highlighted--s">2006 - 2012</span>
+                                        <h4 class="extended-list__item-name">
+                                            Admiral Makarov National University of Shipbuilding
+                                        </h4>
+                                    </div>
+                                </li>
+                                <li class="extended-list__item">
+                                    <h3 class="extended-list__item-heading">Cource "JavaScript. Professional Development of Web Interfaces"</h3>
+                                    <div class="extended-list__item-top">
+                                        <span class="highlighted highlighted--s">Issued Jul 2020</span>
+                                        <h4 class="extended-list__item-name">
+                                            HTML Academy
+                                        </h4>
+                                    </div>
+                                </li>
+                                <li class="extended-list__item">
+                                    <h3 class="extended-list__item-heading">Course "Front-End Development"</h3>
+                                    <div class="extended-list__item-top">
+                                        <span class="highlighted highlighted--s">Issued Jan 2018</span>
+                                        <h4 class="extended-list__item-name">
+                                            Beetroot Academy
+                                        </h4>
+                                    </div>
+                                </li>
+                                <li class="extended-list__item">
+                                    <h3 class="extended-list__item-heading">Course "Development web-applications using PHP/MySQL"</h3>
+                                    <div class="extended-list__item-top">
+                                        <span class="highlighted highlighted--s">Issued Mar 2013</span>
+                                        <h4 class="extended-list__item-name">
+                                            STEP IT Academy
+                                        </h4>
+                                    </div>
+                                </li>
+                                
                             </ul>
                         </article>
                     </div>
@@ -117,7 +327,10 @@
     </div>
     <footer class="footer">
         <div class="container">
-
+            <div class="copyright">
+                Made with <i class="copyright__icon"></i> by <a href="https://www.linkedin.com/in/vlad-yermolayev/"
+                    target="_blank">Vladyslav Yermolayev</a>
+            </div>
         </div>
     </footer>
 </body>
